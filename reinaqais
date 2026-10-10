@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>songs that remind me of you ♡</title>
+
+    <meta
+
+      name="description"
+
+      content="A dreamy pastel romantic playlist for Qais & Reina."
+
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap"
+
+      rel="stylesheet"
+
+    />
+
+    <style>
+
+      :root {
+
+        --pink-1: #fdf2f7;
+
+        --pink-2: #f9dbe7;
+
+        --pink-3: #f6bfd4;
+
+        --pink-4: #ef9ec0;
+
+        --rose: #d96c9a;
+
+        --blush: #f2c8d5;
+
+        --cream: #fffaf3;
+
+        --ivory: #fffdfb;
+
+        --brown: #6e4f5b;
+
+        --shadow: rgba(179, 92, 137, 0.18);
+
+        --gold: #f3d7a8;
+
+        --red: #e77e9d;
+
+      }
+
+      * {
+
+        box-sizing: border-box;
+
+      }
+
+      html {
+
+        scroll-behavior: smooth;
+
+      }
+
+      body {
+
+        margin: 0;
+
+        font-family: "Nunito", sans-serif;
+
+        background:
+
+          radial-gradient(circle at top left, rgba(255,255,255,0.8), transparent 25%),
+
+          radial-gradient(circle at bottom right, rgba(255,211,225,0.6), transparent 26%),
+
+          linear-gradient(135deg, #fffaf8 0%, #fff7fb 30%, #fef3f7 100%);
+
+        color: var(--brown);
+
+        overflow-x: hidden;
+
+      }
+
+      body::before {
+
+        content: "";
+
+        position: fixed;
+
+        inset: 0;
+
+        pointer-events: none;
+
+        background-image:
+
+          linear-gradient(rgba(255,255,255,0.12), rgba(255,255,255,0.12)),
+
+          repeating-linear-gradient(
+
+            0deg,
+
+            rgba(255, 214, 228, 0.14),
+
+            rgba(255, 214, 228, 0.14) 2px,
+
+            transparent 2px,
+
+            transparent 8px
+
+          );
+
+        opacity: 0.65;
+
+      }
+
+      .page-wrap {
+
+        position: relative;
+
+        z-index: 1;
+
+      }
+
+      .container {
+
+        width: min(1100px, calc(100% - 30px));
+
+        margin: 0 auto;
+
+      }
+
+      .handwritten {
+
+        font-family: "Caveat", cursive;
+
+        letter-spacing: 0.03em;
+
+      }
+
+      .hero {
+
+        padding: 32px 0 18px;
+
+        position: relative;
+
+      }
+
+      .nav-badge {
+
+        text-align: center;
+
+        margin-bottom: 16px;
+
+      }
+
+      .nav-badge span {
+
+        display: inline-block;
+
+        background: rgba(255,255,255,0.7);
+
+        border: 2px solid rgba(217, 108, 154, 0.15);
+
+        border-radius: 999px;
+
+        padding: 10px 18px;
+
+        font-weight: 700;
+
+        color: var(--rose);
+
+        box-shadow: 0 8px 20px rgba(217, 108, 154, 0.08);
+
+        backdrop-filter: blur(8px);
+
+      }
+
+      .hero-card {
+
+        background: rgba(255,255,255,0.6);
+
+        border: 2px solid rgba(217, 108, 154, 0.14);
+
+        box-shadow: 0 16px 36px var(--shadow);
+
+        border-radius: 28px;
+
+        position: relative;
+
+        padding: 28px 22px 20px;
+
+        backdrop-filter: blur(6px);
+
+      }
+
+      .hero-card::before,
+
+      .hero-card::after,
+
+      .section-shell::before,
+
+      .section-shell::after,
+
+      .letter::before,
+
+      .letter::after {
+
+        content: "";
+
+        position: absolute;
+
+        width: 30px;
+
+        height: 30px;
+
+        background: rgba(249, 219, 231, 0.7);
+
+        border-radius: 50%;
+
+        box-shadow: 0 0 0 4px rgba(255,255,255,0.4);
+
+      }
+
+      .hero-card::before {
+
+        top: -12px;
+
+        left: 20px;
+
+      }
+
+      .hero-card::after {
+
+        top: -12px;
+
+        right: 20px;
+
+      }
+
+      .hero-inner {
+
+        text-align: center;
+
+        padding: 18px 10px 8px;
+
+      }
+
+      .title {
+
+        margin: 0;
+
+        font-size: clamp(2.6rem, 7vw, 6rem);
+
+        line-height: 0.9;
+
+        color: var(--rose);
+
+        text-shadow: 0 2px 0 rgba(255,255,255,0.8), 0 10px 18px rgba(217,108,154,0.12);
+
+      }
+
+      .subtitle {
+
+        margin: 14px 0 8px;
+
+        font-size: clamp(1.7rem, 4vw, 2.8rem);
+
+        color: var(--pink-4);
+
+      }
+
+      .date {
+
+        display: inline-block;
+
+        margin-top: 6px;
+
+        margin-bottom: 18px;
+
+        background: rgba(255,255,255,0.72);
+
+        border: 1.5px solid rgba(217, 108, 154, 0.18);
+
+        color: var(--rose);
+
+        font-weight: 700;
+
+        border-radius: 999px;
+
+        padding: 10px 18px;
+
+        box-shadow: 0 8px 20px rgba(217, 108, 154, 0.08);
+
+      }
+
+      .quote {
+
+        max-width: 700px;
+
+        margin: 18px auto 0;
+
+        font-size: clamp(1.15rem, 2.6vw, 1.6rem);
+
+        line-height: 1.5;
+
+        color: #7f5d66;
+
+        font-style: italic;
+
+      }
+
+      .cta {
+
+        margin-top: 26px;
+
+        display: inline-flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        gap: 10px;
+
+        background: linear-gradient(135deg, var(--rose), #e88bb0);
+
+        color: white;
+
+        border: none;
+
+        border-radius: 999px;
+
+        padding: 16px 28px;
+
+        font-size: 1.05rem;
+
+        font-weight: 800;
+
+        cursor: pointer;
+
+        box-shadow: 0 12px 26px rgba(217,108,154,0.18);
+
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+      }
+
+      .cta:hover {
+
+        transform: translateY(-2px) scale(1.01);
+
+        box-shadow: 0 16px 32px rgba(217,108,154,0.24);
+
+      }
+
+      .cta:active {
+
+        transform: translateY(0);
+
+      }
+
+      .sparkles {
+
+        position: absolute;
+
+        inset: 0;
+
+        pointer-events: none;
+
+      }
+
+      .sparkles span {
+
+        position: absolute;
+
+        display: block;
+
+        width: 12px;
+
+        height: 12px;
+
+        background: rgba(255, 255, 255, 0.9);
+
+        clip-path: polygon(50% 0%, 63% 38%, 100% 50%, 63% 62%, 50% 100%, 37% 62%, 0% 50%, 37% 38%);
+
+        opacity: 0.8;
+
+      }
+
+      .sparkles span:nth-child(1) { left: 9%; top: 12%; }
+
+      .sparkles span:nth-child(2) { right: 12%; top: 20%; }
+
+      .sparkles span:nth-child(3) { left: 16%; bottom: 14%; }
+
+      .sparkles span:nth-child(4) { right: 18%; bottom: 16%; }
+
+      .section-shell {
+
+        position: relative;
+
+        margin-top: 24px;
+
+        padding: 30px 18px 14px;
+
+        background: rgba(255,255,255,0.55);
+
+        border: 2px solid rgba(217, 108, 154, 0.12);
+
+        border-radius: 30px;
+
+        box-shadow: 0 18px 38px rgba(151, 92, 124, 0.08);
+
+      }
+
+      .section-shell::before {
+
+        left: 18px;
+
+        top: -12px;
+
+      }
+
+      .section-shell::after {
+
+        right: 18px;
+
+        top: -12px;
+
+      }
+
+      .section-heading {
+
+        text-align: center;
+
+        margin-bottom: 16px;
+
+      }
+
+      .section-heading h2 {
+
+        margin: 0;
+
+        font-size: clamp(2rem, 5vw, 3.5rem);
+
+        color: var(--rose);
+
+      }
+
+      .playlist-grid {
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 18px;
+
+        margin-top: 18px;
+
+      }
+
+      .song-card {
+
+        background: rgba(255,255,255,0.75);
+
+        border: 2px solid rgba(217,108,154,0.15);
+
+        border-radius: 24px;
+
+        padding: 18px 16px 16px;
+
+        cursor: pointer;
+
+        position: relative;
+
+        transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+        box-shadow: 0 10px 24px rgba(217,108,154,0.08);
+
+      }
+
+      .song-card:hover {
+
+        transform: translateY(-2px);
+
+      }
+
+      .song-card.selected {
+
+        border-color: rgba(217, 108, 154, 0.55);
+
+        background: linear-gradient(180deg, #fffafc, #fff3f8);
+
+        box-shadow: 0 18px 30px rgba(217,108,154,0.12);
+
+      }
+
+      .song-card.selected::before {
+
+        content: "♡";
+
+        position: absolute;
+
+        right: 16px;
+
+        top: 12px;
+
+        font-size: 1.5rem;
+
+        color: var(--rose);
+
+      }
+
+      .song-top {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        gap: 12px;
+
+        margin-bottom: 12px;
+
+      }
+
+      .song-number {
+
+        width: 38px;
+
+        height: 38px;
+
+        border-radius: 50%;
+
+        display: inline-flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        background: linear-gradient(135deg, var(--pink-2), var(--blush));
+
+        color: var(--rose);
+
+        font-weight: 800;
+
+      }
+
+      .song-meta {
+
+        flex: 1;
+
+      }
+
+      .song-title {
+
+        margin: 0;
+
+        font-size: clamp(1.15rem, 2.5vw, 1.8rem);
+
+        line-height: 1.2;
+
+        color: var(--brown);
+
+      }
+
+      .song-artist {
+
+        margin: 6px 0 0;
+
+        color: var(--rose);
+
+        font-weight: 700;
+
+      }
+
+      .song-actions {
+
+        display: flex;
+
+        justify-content: flex-start;
+
+        margin-top: 12px;
+
+      }
+
+      .mini-btn {
+
+        display: inline-flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        gap: 8px;
+
+        border: none;
+
+        border-radius: 999px;
+
+        background: rgba(242, 200, 213, 0.9);
+
+        color: var(--brown);
+
+        padding: 10px 14px;
+
+        font-weight: 800;
+
+        text-decoration: none;
+
+        cursor: pointer;
+
+        transition: transform 0.2s ease, background 0.2s ease;
+
+      }
+
+      .mini-btn:hover {
+
+        transform: translateY(-1px);
+
+        background: rgba(233, 179, 203, 0.95);
+
+      }
+
+      .featured {
+
+        margin-top: 24px;
+
+        padding: 20px 18px 18px;
+
+        border-radius: 28px;
+
+        background: linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,241,247,0.78));
+
+        border: 2px solid rgba(217,108,154,0.12);
+
+        box-shadow: 0 18px 34px rgba(217,108,154,0.08);
+
+      }
+
+      .featured-header {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        gap: 16px;
+
+        margin-bottom: 16px;
+
+      }
+
+      .featured-title {
+
+        margin: 0;
+
+        color: var(--rose);
+
+        font-size: clamp(1.7rem, 3vw, 2.4rem);
+
+      }
+
+      .play-badge {
+
+        display: inline-flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        width: 52px;
+
+        height: 52px;
+
+        border-radius: 50%;
+
+        background: linear-gradient(135deg, var(--pink-3), var(--rose));
+
+        color: white;
+
+        font-size: 1.5rem;
+
+        box-shadow: 0 10px 18px rgba(217,108,154,0.2);
+
+      }
+
+      .featured-layout {
+
+        display: grid;
+
+        grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+
+        gap: 18px;
+
+      }
+
+      .video-wrap {
+
+        position: relative;
+
+        overflow: hidden;
+
+        border-radius: 22px;
+
+        background: #fdf1f7;
+
+        border: 2px solid rgba(217,108,154,0.12);
+
+        min-height: 250px;
+
+        box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+
+      }
+
+      .video-wrap iframe {
+
+        width: 100%;
+
+        min-height: 260px;
+
+        border: 0;
+
+        display: block;
+
+        background: #f6e4ee;
+
+      }
+
+      .message-box {
+
+        background: rgba(255,255,255,0.76);
+
+        border: 2px dashed rgba(217,108,154,0.14);
+
+        border-radius: 22px;
+
+        padding: 18px 16px;
+
+      }
+
+      .message-box h3 {
+
+        margin: 0 0 12px;
+
+        color: var(--rose);
+
+        font-size: 1.4rem;
+
+      }
+
+      .message-box p {
+
+        margin: 0;
+
+        font-size: 1.08rem;
+
+        line-height: 1.7;
+
+        color: #5f4d56;
+
+      }
+
+      .listen-btn {
+
+        display: inline-flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        gap: 8px;
+
+        margin-top: 16px;
+
+        padding: 14px 20px;
+
+        border-radius: 999px;
+
+        background: linear-gradient(135deg, var(--rose), #ea98b9);
+
+        color: white;
+
+        text-decoration: none;
+
+        font-weight: 800;
+
+        box-shadow: 0 12px 22px rgba(217,108,154,0.16);
+
+        transition: transform 0.2s ease;
+
+      }
+
+      .listen-btn:hover {
+
+        transform: translateY(-2px);
+
+      }
+
+      .letter {
+
+        position: relative;
+
+        margin-top: 30px;
+
+        background: rgba(255,255,255,0.62);
+
+        border: 2px solid rgba(217,108,154,0.12);
+
+        border-radius: 30px;
+
+        padding: 28px 18px 22px;
+
+        box-shadow: 0 18px 38px rgba(151, 92, 124, 0.08);
+
+      }
+
+      .letter::before {
+
+        left: 18px;
+
+        top: -12px;
+
+      }
+
+      .letter::after {
+
+        right: 18px;
+
+        top: -12px;
+
+      }
+
+      .letter-content {
+
+        max-width: 760px;
+
+        margin: 0 auto;
+
+        text-align: center;
+
+      }
+
+      .letter-title {
+
+        margin: 0 0 18px;
+
+        font-size: clamp(2rem, 4vw, 3rem);
+
+        color: var(--rose);
+
+      }
+
+      .letter p {
+
+        margin: 0 auto 16px;
+
+        font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+
+        line-height: 1.8;
+
+        color: #5f4d56;
+
+        max-width: 700px;
+
+      }
+
+      .letter-sign {
+
+        margin-top: 30px;
+
+        font-size: clamp(1.5rem, 3vw, 2.2rem);
+
+        color: var(--rose);
+
+      }
+
+      footer {
+
+        position: relative;
+
+        padding: 42px 0 34px;
+
+        text-align: center;
+
+      }
+
+      .footer-card {
+
+        display: inline-block;
+
+        padding: 16px 22px;
+
+        border-radius: 999px;
+
+        background: rgba(255,255,255,0.7);
+
+        border: 2px solid rgba(217,108,154,0.14);
+
+        box-shadow: 0 12px 28px rgba(217,108,154,0.08);
+
+        font-size: clamp(1.3rem, 2.8vw, 2rem);
+
+        color: var(--rose);
+
+      }
+
+      .floating-heart {
+
+        position: fixed;
+
+        width: 18px;
+
+        height: 18px;
+
+        background: rgba(240, 132, 176, 0.9);
+
+        transform: rotate(-45deg);
+
+        border-radius: 2px;
+
+        animation: floatUp linear forwards;
+
+        pointer-events: none;
+
+        z-index: 0;
+
+        opacity: 0.7;
+
+      }
+
+      .floating-heart::before,
+
+      .floating-heart::after {
+
+        content: "";
+
+        position: absolute;
+
+        width: 100%;
+
+        height: 100%;
+
+        background: inherit;
+
+        border-radius: 50%;
+
+      }
+
+      .floating-heart::before {
+
+        top: -50%;
+
+        left: 0;
+
+      }
+
+      .floating-heart::after {
+
+        left: 50%;
+
+        top: 0;
+
+      }
+
+      @keyframes floatUp {
+
+        0% {
+
+          transform: translate3d(0, 100vh, 0) rotate(-45deg) scale(0.8);
+
+          opacity: 0;
+
+        }
+
+        10% {
+
+          opacity: 0.8;
+
+        }
+
+        100% {
+
+          transform: translate3d(var(--drift), -20vh, 0) rotate(-45deg) scale(1.2);
+
+          opacity: 0;
+
+        }
+
+      }
+
+      @media (max-width: 760px) {
+
+        .playlist-grid,
+
+        .featured-layout {
+
+          grid-template-columns: 1fr;
+
+        }
+
+        .featured-header {
+
+          align-items: flex-start;
+
+          flex-direction: column;
+
+        }
+
+        .hero-card {
+
+          padding-left: 16px;
+
+          padding-right: 16px;
+
+        }
+
+        .quote {
+
+          font-size: 1.1rem;
+
+        }
+
+        .song-card {
+
+          padding: 16px 14px;
+
+        }
+
+        .cta {
+
+          width: 100%;
+
+        }
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="page-wrap">
+
+      <header class="hero">
+
+        <div class="container">
+
+          <div class="nav-badge">
+
+            <span>Qais & Reina</span>
+
+          </div>
+
+          <div class="hero-card">
+
+            <div class="sparkles">
+
+              <span></span>
+
+              <span></span>
+
+              <span></span>
+
+              <span></span>
+
+            </div>
+
+            <div class="hero-inner">
+
+              <h1 class="title handwritten">songs that remind me of you ♡</h1>
+
+              <div class="subtitle handwritten">Qais & Reina</div>
+
+              <div class="date">July 04, 2026</div>
+
+              <div class="quote">
+
+                “some songs sound like memories, and some memories will always sound like you ♡”
+
+              </div>
+
+              <button class="cta" id="scrollToPlaylist">
+
+                open our little playlist ♡
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </header>
+
+      <main class="container">
+
+        <section class="section-shell" id="playlist">
+
+          <div class="section-heading">
+
+            <h2 class="handwritten">our playlist</h2>
+
+          </div>
+
+          <div class="playlist-grid" id="songList"></div>
+
+          <div class="featured">
+
+            <div class="featured-header">
+
+              <h3 class="featured-title handwritten">featured song</h3>
+
+              <div class="play-badge" aria-label="Play icon">▶</div>
+
+            </div>
+
+            <div class="featured-layout">
+
+              <div class="video-wrap">
+
+                <iframe
+
+                  id="ytFrame"
+
+                  title="Selected YouTube video"
+
+                  src=""
+
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+                  allowfullscreen
+
+                ></iframe>
+
+              </div>
+
+              <div class="message-box">
+
+                <h3 id="featuredSongTitle">Selected Song</h3>
+
+                <p id="featuredMessage">
+
+                  Pick a song from the playlist to see the little note it carries with it.
+
+                </p>
+
+                <a class="listen-btn" id="listenLink" href="#" target="_blank" rel="noopener noreferrer">
+
+                  listen on YouTube ♡
+
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="letter">
+
+          <div class="letter-content">
+
+            <h2 class="letter-title handwritten">our little love note</h2>
+
+            <p>
+
+              dear you,
+
+            </p>
+
+            <p>
+
+              somewhere between all these songs, all these little moments, and all the memories we’re making, you became one of my favorite parts of life. so here’s a little collection of songs that remind me of you, and a tiny reminder that you’re special to me in more ways than words can say.
+
+            </p>
+
+            <p>
+
+              with all my love ♡
+
+            </p>
+
+            <div class="letter-sign handwritten">Qais & Reina ♡</div>
+
+          </div>
+
+        </section>
+
+      </main>
+
+      <footer>
+
+        <div class="footer-card handwritten">
+
+          Q + R, a little love in every melody ♡
+
+        </div>
+
+      </footer>
+
+    </div>
+
+    <script>
+
+      const songs = [
+
+        {
+
+          title: "Layla studio session",
+
+          artist: "cairokiee",
+
+          link: "https://youtu.be/QoVd8rOnzyw?si=4TTBpi7IYhBqlkVa",
+
+          embedId: "QoVd8rOnzyw",
+
+          message:
+
+            "you have no idea how many times a song can remind me of you. this one feels like one of our little moments ♡"
+
+        },
+
+        {
+
+          title: "Awedak (Thaman Alam Album)",
+
+          artist: "Ayed",
+
+          link: "https://youtu.be/hnbALhWMLJI?si=t_IvX3Hd_A_g27Zg",
+
+          embedId: "hnbALhWMLJI",
+
+          message:
+
+            "if I could turn my feelings into a song, it would sound a little like this. كل أغنية تذكرني فيك ♡"
+
+        },
+
+        {
+
+          title: "كله قالي اشمعنا هو",
+
+          artist: "حماده مجرشي",
+
+          link: "https://youtu.be/0TVxB8e9zDk?si=muZiOoZpVqOzBaoA",
+
+          embedId: "0TVxB8e9zDk",
+
+          message:
+
+            "out of everyone in the world, my heart found its own favorite person. and that’s you ♡"
+
+        },
+
+        {
+
+          title: "Risk It All",
+
+          artist: "Bruno Mars",
+
+          link: "https://youtu.be/lY5V4hSLWY8?si=6aBaCzUW1D2I4H_m",
+
+          embedId: "lY5V4hSLWY8",
+
+          message:
+
+            "if choosing you were a thousand little decisions, I’d choose you every single time. always you, Qais & Reina ♡"
+
+        }
+
+      ];
+
+      const songList = document.getElementById("songList");
+
+      const ytFrame = document.getElementById("ytFrame");
+
+      const featuredMessage = document.getElementById("featuredMessage");
+
+      const featuredSongTitle = document.getElementById("featuredSongTitle");
+
+      const listenLink = document.getElementById("listenLink");
+
+      let selectedSongIndex = 0;
+
+      function renderSongs() {
+
+        songList.innerHTML = songs
+
+          .map((song, index) => {
+
+            const selectedClass = index === selectedSongIndex ? "selected" : "";
+
+            return `
+
+              <article class="song-card ${selectedClass}" data-index="${index}" tabindex="0" aria-label="Select ${song.title} by ${song.artist}">
+
+                <div class="song-top">
+
+                  <div class="song-number">${index + 1}</div>
+
+                  <div class="song-meta">
+
+                    <h3 class="song-title">${song.title}</h3>
+
+                    <p class="song-artist">${song.artist}</p>
+
+                  </div>
+
+                </div>
+
+                <div class="song-actions">
+
+                  <a class="mini-btn" href="${song.link}" target="_blank" rel="noopener noreferrer" aria-label="Open YouTube for ${song.title}">▶ YouTube</a>
+
+                </div>
+
+              </article>
+
+            `;
+
+          })
+
+          .join("");
+
+        const cards = document.querySelectorAll(".song-card");
+
+        cards.forEach((card) => {
+
+          card.addEventListener("click", (event) => {
+
+            if (event.target.closest("a")) return;
+
+            const index = Number(card.dataset.index);
+
+            selectSong(index);
+
+          });
+
+          card.addEventListener("keydown", (event) => {
+
+            if (event.key === "Enter" || event.key === " ") {
+
+              event.preventDefault();
+
+              const index = Number(card.dataset.index);
+
+              selectSong(index);
+
+            }
+
+          });
+
+        });
+
+      }
+
+      function selectSong(index) {
+
+        selectedSongIndex = index;
+
+        const selected = songs[index];
+
+        featuredSongTitle.textContent = `${selected.title} — ${selected.artist}`;
+
+        featuredMessage.textContent = selected.message;
+
+        listenLink.href = selected.link;
+
+        ytFrame.src = `https://www.youtube.com/embed/${selected.embedId}?rel=0&modestbranding=1`;
+
+        renderSongs();
+
+      }
+
+      document.getElementById("scrollToPlaylist").addEventListener("click", () => {
+
+        document.getElementById("playlist").scrollIntoView({ behavior: "smooth", block: "start" });
+
+      });
+
+      function sprinkleHearts() {
+
+        const heartCount = 18;
+
+        for (let i = 0; i < heartCount; i++) {
+
+          const heart = document.createElement("span");
+
+          heart.className = "floating-heart";
+
+          const x = Math.random() * window.innerWidth;
+
+          const drift = (Math.random() - 0.5) * 140;
+
+          heart.style.left = `${x}px`;
+
+          heart.style.setProperty("--drift", `${drift}px`);
+
+          heart.style.animationDelay = `${(Math.random() * 4).toFixed(2)}s`;
+
+          heart.style.animationDuration = `${(Math.random() * 8 + 9).toFixed(2)}s`;
+
+          document.body.appendChild(heart);
+
+          setTimeout(() => heart.remove(), 18000);
+
+        }
+
+      }
+
+      setInterval(sprinkleHearts, 2400);
+
+      renderSongs();
+
+      selectSong(0);
+
+    </script>
+
+  </body>
+
+</html>
